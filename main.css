@@ -12,15 +12,14 @@ body{
 	height: 100vh;
 	background-size: cover;
 }
-
+/*
 .header-content{
 	display: flex;
 	align-item: center;
 	justify-content: center;
 	flex-direction: column;
-	
-
 }
+*/
 
 h1,
 h2{
@@ -34,12 +33,14 @@ h1{
 h2{
 	font-size: 26px;
 }
-
+/*
 .logo{
 	color: white;
 	margin-left: auto;
 	margin-right: auto;
 	position: absolute;
+	padding-left: 20px;
+	padding-top: 20px;
 }
 
 .menu-nav
@@ -47,12 +48,12 @@ h2{
 	background-color: #14A3CB;
 	width: 280px;
 	position: absolute;
-	left: 75%;
+	
 	color: #303030;
 
 }
 
-
+*/
 button
 {
 	position: absolute;
@@ -62,13 +63,36 @@ button
 	padding: 5px;
 	background-color: #14A3CB;
 	font-size: 25px;
-	color: white;
+	color: #fff;
 	height: 70px;
 	border: 0;
 	margin-top: -35px;
 	margin-left: -100px;
 	border-radius: 10px;
 }
+
+.section-text
+{
+	background: url('img/star.jpg') center;
+	width: 100vw;
+	height: 100vh;
+	background-size: cover;
+}
+
+.section-text-p
+{
+	position: absolute;
+	color: #fff;
+	max-width: 500px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 135%;
+	left: 25%;
+}
+
 /*mobile*/
 @media (max-width: 640px)
 {
@@ -82,8 +106,6 @@ button
 	h2{
 		font-size: 16px;
 	}
-	logo{
-		position: center;
-	}
+	
 	
 }
