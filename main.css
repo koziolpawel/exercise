@@ -100,8 +100,19 @@ button
 {
 	background: #7d84a4;
 	opacity: 0.6;
-	color: #white;
+	color: #303030;
 }
+
+ol
+{
+	color: white;
+	font-size: 10px;
+	width: 300px;
+	text-align: center;
+	height: 20px;
+}
+
+
 
 /*mobile*/
 @media (max-width: 640px)
