@@ -73,12 +73,14 @@ button
 
 .hamburger
 {
+	top: 10%;
+	left: 98%;
 	width: 48px;
 	height: 35px;
 	border: 0;
-	border-top: 5 px solid #fff;
-	background: silver;
-	position: relative;
+	border-top: 5px solid #fff;
+	background: transparent;
+	position: absolute;
 }
 
 .hamburger::before, .hamburger::after
@@ -89,12 +91,12 @@ button
 	left: 0;
 	width: 100%;
 	border-top: 5px solid #fff;
-	transform: translateY (10px);
+	transform: translateY(10px);
 }
 
 .hamburger::after
 {
-	transform: transparentY (25px);
+	transform: translateY(25px);
 }
 
 .hamburger:focus
@@ -115,11 +117,11 @@ button
 	width: 100vw;
 	height: 100vh;
 	background-size: cover;
+
 }
 
 .section-text-p
 {
-	position: absolute;
 	color: #fff;
 	max-width: 500px;
 	border: 1px solid #fff;
@@ -129,17 +131,10 @@ button
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	top: 50%;
-	margin-top: 635px;
-
+	margin: 100px;
+	
 }
 
-.section-text-p:hover
-{
-	background: #7d84a4;
-	opacity: 0.6;
-	color: #303030;
-}
 
 ol
 {
@@ -165,6 +160,10 @@ ol
 	h2{
 		font-size: 16px;
 	}
-	
+.section-text-p
+	{
+		max-width: 300px;
+		font-size: 1.4em;
+	}
 	
 }
