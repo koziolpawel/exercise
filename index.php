@@ -22,6 +22,9 @@
 	
 	Tylko martwi ujrzeli koniec wojny - Platon<br /><br />
 	
+	<a href="rejestracja.php">Rejestracja - załóż darmowe konto!</a>
+	<br /><br />
+	
 	<form action="zaloguj.php" method="post">
 	
 		Login: <br /> <input type="text" name="login" /> <br />
